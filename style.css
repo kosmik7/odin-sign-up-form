@@ -77,3 +77,12 @@ th {
 }
 
 /*! minireset.css end */
+
+@font-face {
+    font-family: 'norse';
+    src: url('./assets/norse-bold.woff2') format('woff2'),
+        url('./assets/norse-bold.woff') format('woff'),
+        url('./assets/norse-bold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
