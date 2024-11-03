@@ -211,8 +211,43 @@ p.form__signin a {
     text-transform: uppercase;
 }
 
+.form__container label > span {
+    font-size: 0.5rem;
+    letter-spacing: .05rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
 .form__container input {
     padding: .35rem;
     border: 1px solid #E5E7EB;
     border-radius: 4px;
+}
+
+.form__container input + span {
+    visibility: hidden;
+    color: #b91c1c;
+    font-size: 0.7rem;
+}
+
+.form__container input:focus,
+.form__container input:placeholder-shown:focus {
+    outline: #1d4ed8;
+    border: 1px solid #1d4ed8;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.form__container input:invalid {
+    border: 1px solid #b91c1c;
+}
+
+.form__container input:invalid + span {
+    visibility: visible;
+}
+
+.form__container input:placeholder-shown {
+    border: 1px solid #E5E7EB;
+}
+
+.form__container input:placeholder-shown + span {
+    visibility: hidden;
 }
