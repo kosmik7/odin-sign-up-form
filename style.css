@@ -126,6 +126,7 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow: hidden;
     padding: 15px;
     position: absolute;
     top: 22%;
