@@ -107,11 +107,10 @@ a {
     position: relative;
     color: #fff;
     max-width: 535px;
-}
+    min-height: 100vh;
+    background: url(assets/background.jpg);
+    background-size: cover;
 
-.branding img {
-    height: 100vh;
-    object-fit: cover;
 }
 
 .branding p {
